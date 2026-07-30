@@ -17,4 +17,7 @@ for ch in plaintext:
 
 print("Ciphertext:", ciphertext)
 
-
+# OUTPUT
+# Enter Plaintext: laptop
+# Enter Key: 5
+# Ciphertext: ZODHCD
