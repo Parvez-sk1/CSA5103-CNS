@@ -34,3 +34,7 @@ for i in range(0, len(text), 2):
         cipher += matrix[r1][c2] + matrix[r2][c1]
 
 print("Cipher Text:", cipher)
+
+# OUTPUT
+# Enter plaintext: INSTRUMENT
+# Cipher Text: GATLMZCLRQ
