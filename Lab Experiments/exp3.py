@@ -1,5 +1,3 @@
-# Simple Playfair Cipher (Encryption)
-
 key = "MONARCHY"
 matrix = [
     ['M','O','N','A','R'],
@@ -28,11 +26,11 @@ for i in range(0, len(text), 2):
     r1, c1 = pos(a)
     r2, c2 = pos(b)
 
-    if r1 == r2:   # Same row
+    if r1 == r2:  
         cipher += matrix[r1][(c1+1)%5] + matrix[r2][(c2+1)%5]
-    elif c1 == c2: # Same column
+    elif c1 == c2: 
         cipher += matrix[(r1+1)%5][c1] + matrix[(r2+1)%5][c2]
-    else:          # Rectangle
+    else:          
         cipher += matrix[r1][c2] + matrix[r2][c1]
 
 print("Cipher Text:", cipher)
