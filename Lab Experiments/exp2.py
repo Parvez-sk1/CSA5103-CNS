@@ -9,6 +9,6 @@ for ch in plaintext:
     elif ch.islower():
         ciphertext += chr((ord(ch) - ord('a') + k) % 26 + ord('a'))
     else:
-        ciphertext += ch  # Keep spaces and special characters unchanged
+        ciphertext += ch  
 
 print("Ciphertext:", ciphertext)
