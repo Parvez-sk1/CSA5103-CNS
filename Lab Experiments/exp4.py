@@ -13,3 +13,8 @@ for ch in text:
         cipher += ch
 
 print("Ciphertext:", cipher)
+
+# OUTPUT
+# Enter Plaintext: laptop
+# Enter Key: 5
+# Ciphertext: ZODHCD
