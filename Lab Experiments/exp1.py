@@ -1,5 +1,3 @@
-# Monoalphabetic Substitution Cipher
-
 plain_alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 cipher_alphabet = "QWERTYUIOPASDFGHJKLZXCVBNM"
 
@@ -18,3 +16,5 @@ for ch in plaintext:
         ciphertext += ch
 
 print("Ciphertext:", ciphertext)
+
+
