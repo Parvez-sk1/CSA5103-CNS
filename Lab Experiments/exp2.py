@@ -12,3 +12,8 @@ for ch in plaintext:
         ciphertext += ch  
 
 print("Ciphertext:", ciphertext)
+
+# OUTPUT
+# Enter the plaintext: Computer
+# Enter the shift value (1-25): 8
+# Ciphertext: Kwuxcbmz
