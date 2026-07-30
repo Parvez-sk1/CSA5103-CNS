@@ -1,5 +1,3 @@
-# Caesar Cipher Encryption
-
 plaintext = input("Enter the plaintext: ")
 k = int(input("Enter the shift value (1-25): "))
 
