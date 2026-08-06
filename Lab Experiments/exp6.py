@@ -1,17 +1,14 @@
 import math
 
-# Function to find modular inverse
 def mod_inverse(a, m):
     for i in range(1, m):
         if (a * i) % m == 1:
             return i
     return None
 
-# Ciphertext frequencies
-cipher1 = ord('B') - ord('A')   # 1
-cipher2 = ord('U') - ord('A')   # 20
+cipher1 = ord('B') - ord('A')   
+cipher2 = ord('U') - ord('A')   
 
-# Possible plaintext mappings
 mappings = [
     ('E', 'T'),
     ('T', 'E')
