@@ -50,3 +50,13 @@ cipher = encrypt(text, a, b)
 if cipher:
     print("Encrypted Text :", cipher)
     print("Decrypted Text :", decrypt(cipher, a, b))
+
+    
+# OUTPUT 
+    '''
+Enter Plaintext: HELLO
+Enter value of a: 5
+Enter value of b: 6
+Encrypted Text : PAJJY
+Decrypted Text : HELLO
+'''
